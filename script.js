@@ -2,7 +2,7 @@ const demoContent = {
   severity: {
     label: "Severity Review",
     title: "See which symptoms intensified and which improved.",
-    text: "Reacxtrackz compares symptom levels across time so care teams can assess whether a treatment is stabilizing or producing difficult side effects."
+    text: "Reactztrazk compares symptom levels across time so care teams can assess whether a treatment is stabilizing or producing difficult side effects."
   },
   timing: {
     label: "Timing Pattern",
@@ -12,7 +12,7 @@ const demoContent = {
   progress: {
     label: "Treatment Progress",
     title: "Track whether the body is moving toward recovery.",
-    text: "Reacxtrackz compares symptom reduction, side effect persistence, and treatment tolerance to show whether progress is improving or becoming unstable."
+    text: "Reactztrazk compares symptom reduction, side effect persistence, and treatment tolerance to show whether progress is improving or becoming unstable."
   },
   review: {
     label: "Clinical Review",
