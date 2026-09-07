@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.reacxtrackz.in.com/sitemap.xml
+Sitemap: https://www.reacxtrackz.it.com/sitemap.xml
