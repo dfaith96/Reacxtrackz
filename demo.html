@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo | Reacxtrackz</title>
+  <meta name="description" content="Explore the Reacxtrackz demo and see how AI interprets medication and treatment reactions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="topbar">
+      <a class="brand" href="index.html"><span class="brand-mark">Rx</span><span class="brand-name">Reacxtrackz</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="tracking.html">Tracking</a>
+        <a class="active" href="demo.html">Demo</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <header class="subhero">
+      <div class="subhero-inner">
+        <section>
+          <p class="eyebrow">Demo</p>
+          <h1>Preview the way AI reads treatment response data.</h1>
+          <p>Switch between monitoring views to see how severity, timing, progress, and review summaries change the story.</p>
+        </section>
+        <div class="subhero-art">
+          <img class="svg-art" src="assets/care-pathway.svg" alt="Reacxtrackz demo illustration">
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section demo-grid">
+        <article class="card">
+          <p class="eyebrow">Scenario</p>
+          <h2>A patient reports dizziness, rash changes, and improved pain levels after a treatment adjustment.</h2>
+          <p>The demo shows how one set of entries can be interpreted from different review angles.</p>
+          <div class="pill-row">
+            <span>Severity</span>
+            <span>Timing</span>
+            <span>Progress</span>
+            <span>Review</span>
+          </div>
+        </article>
+
+        <article class="demo-panel">
+          <div class="tab-row" role="tablist" aria-label="Reacxtrackz demo views">
+            <button class="tab-button active" data-topic="severity" type="button">Severity</button>
+            <button class="tab-button" data-topic="timing" type="button">Timing</button>
+            <button class="tab-button" data-topic="progress" type="button">Progress</button>
+            <button class="tab-button" data-topic="review" type="button">Review</button>
+          </div>
+          <div class="demo-image-wrap">
+            <img class="svg-art" src="assets/reaction-dashboard.svg" alt="Medication reaction dashboard illustration">
+          </div>
+          <div class="demo-body">
+            <p class="demo-label" id="demo-label">Severity Review</p>
+            <h3 id="demo-title">See which symptoms intensified and which improved.</h3>
+            <p id="demo-text">Reacxtrackz compares symptom levels across time so care teams can assess whether a treatment is stabilizing or producing difficult side effects.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+      <p>(c) 2026 Reacxtrackz. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
